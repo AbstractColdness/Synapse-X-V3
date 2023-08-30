@@ -213,7 +213,6 @@ getgenv().syn_clipboard_set = setclipboard
 getgenv().syn_clipboard_get = getclipboard
 getgenv().syn_islclosure = islclosure
 getgenv().syn_iscclosure = iscclosure
-getgenv().table.lock = makereadonly
 getgenv().table.islock = isreadonly
 getgenv().table.unlock = makewriteable
 getgenv().syn_getsenv = getsenv
