@@ -1,4 +1,4 @@
--- Rewrited custom functions(for remake)
+-- SynFunctions
 
 getgenv().saveinstance = function(saving)
     if not saving then saving = {workspace,game.Lighting,game.ReplicatedFirst,game.ReplicatedStorage,game.StarterGui,game.StarterPack,game.Teams} end 
