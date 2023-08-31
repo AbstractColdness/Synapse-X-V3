@@ -178,11 +178,11 @@ getgenv().saveinstance = function(saving)
 end
 
 getgenv().identifyexecutor = function()
-    return "Synapse X"
+    return "Synapse X UWP"
 end
 
 getgenv().getexecutorname = function()
-    return "Synapse X"
+    return "Synapse X UWP"
 end
 
 getgenv().getscriptclosure = function(targetScript)
