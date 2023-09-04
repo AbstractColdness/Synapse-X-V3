@@ -1,4 +1,6 @@
--- SynFunction
+getgenv().setclipboard = function(clipboardtxt)
+    writefile("setclipboard.reader", tostring(clipboardtxt))
+end
 
 getgenv().saveinstance = function(saving)
     if not saving then saving = {workspace,game.Lighting,game.ReplicatedFirst,game.ReplicatedStorage,game.StarterGui,game.StarterPack,game.Teams} end 
