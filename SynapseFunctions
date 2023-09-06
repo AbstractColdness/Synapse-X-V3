@@ -1,5 +1,3 @@
-print("Hello from the Synapse X team!")
-
 getgenv().setclipboard = function(clipboardtxt)
     writefile("setclipboard.reader", tostring(clipboardtxt))
 end
