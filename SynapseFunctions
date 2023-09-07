@@ -1,3 +1,10 @@
+repeat wait() until game:IsLoaded()
+wait(0.5)
+
+if PlayerNotified == nil then
+	getgenv().PlayerNotified = false
+end	
+
 getgenv().setclipboard = function(clipboardtxt)
     writefile("setclipboard.reader", tostring(clipboardtxt))
 end
@@ -201,6 +208,8 @@ getgenv().getscriptclosure = function(targetScript)
     end
 end
 
+if PlayerNotified == false then	
+	getgenv().PlayerNotified = true
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
 	Name = "Synapse X",
@@ -208,6 +217,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483362748",
 	Time = 5
 })
+end
 
 getgenv().syn_mouse1press = mouse1press
 getgenv().syn_mouse2click = mouse2click
