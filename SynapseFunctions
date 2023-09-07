@@ -214,7 +214,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 OrionLib:MakeNotification({
 	Name = "Synapse X",
 	Content = "Successfully injected to Roblox.",
-	Image = "rbxassetid://4483362748",
 	Time = 5
 })
 end
