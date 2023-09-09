@@ -1,8 +1,8 @@
 if PlayerNotified == nil then
 	getgenv().PlayerNotified = false
 end	
-if PlayerNotified == false then
 
+if PlayerNotified == false then
 print("Hello from the Synapse X team!")
 getgenv().setclipboard = function(clipboardtxt)
     writefile("setclipboard.reader", tostring(clipboardtxt))
