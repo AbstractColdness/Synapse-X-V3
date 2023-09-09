@@ -209,8 +209,6 @@ end
 
 if PlayerNotified == false then	
 repeat wait() until game:IsLoaded()
-wait(0.5)
-getgenv().PlayerNotified = true
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
 Name = "Synapse X",
@@ -240,4 +238,5 @@ getgenv().syn_getrenv = getrenv
 getgenv().syn_getnilinstances = getnilinstances
 getgenv().syn_fireclickdetector = fireclickdetector
 getgenv().syn_getgc = getgc
+getgenv().PlayerNotified = true
 end
