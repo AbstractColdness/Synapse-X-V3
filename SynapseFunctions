@@ -4,6 +4,9 @@ wait(0.5)
 if PlayerNotified == nil then
 	getgenv().PlayerNotified = false
 end	
+if PlayerNotified == false then
+
+print("Hello from the Synapse X team!")
 
 getgenv().setclipboard = function(clipboardtxt)
     writefile("setclipboard.reader", tostring(clipboardtxt))
@@ -239,3 +242,4 @@ getgenv().syn_getrenv = getrenv
 getgenv().syn_getnilinstances = getnilinstances
 getgenv().syn_fireclickdetector = fireclickdetector
 getgenv().syn_getgc = getgc
+end
