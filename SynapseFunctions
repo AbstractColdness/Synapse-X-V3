@@ -217,6 +217,8 @@ Time = 5
 })
 end
 
+getgenv().setscriptable = sethiddenproperty
+
 getgenv().syn_mouse1press = mouse1press
 getgenv().syn_mouse2click = mouse2click
 getgenv().syn_mousemoverel = movemouserel
